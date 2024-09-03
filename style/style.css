@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'SoDo Sans', Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide1 {
+    display: grid;
+    max-width: 1450px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 31px;
+    background-color: #FA745C;
+    color: #1E3932;
+    text-align: center;
+}
+
+.main-text {
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    width: 400px;
+    line-height: 60px;
+}
+
+.sub-text {
+    font-weight: normal;
+    font-size: 24px;
+    width: 520px;
+    margin-top: 25px;
+    line-height: 37px;
+}
+
+.liteblack-button {
+    width: 116px;
+    height: 35px;
+    border-radius: 30px;
+    font-weight: 550;
+    font-size: 15px; 
+    background-color: transparent;
+    border-width: 1.4px;
+    border-style: solid;
+    border-color: #1E3932;
+    color: #1E3932;
+    margin-top: 25px ;
+}
+
+.white-button {
+    width: 116px;
+    height: 35px;
+    border-radius: 30px;
+    font-weight: 550;
+    font-size: 15px; 
+    background-color: transparent;
+    border-width: 1.4px;
+    border-style: solid;
+    border-color: #ffffff;
+    color: #ffffff;
+    margin-top: 25px;
+}
+
+.slide2 {
+    display: grid;
+    max-width: 1450px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 31px;
+    background-color:#9E2240;
+    color: #ffffff;
+    text-align: center;
+}
+
+.slide3 {
+    display: grid;
+    max-width: 1450px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 31px;
+    background-color:#006241;
+    color: #ffffff;
+    text-align: center;
+}
+
+.main-text2 {
+    font-size: 24px;
+    font-weight: 700;
+    width: 400px;
+}
+
+.sub-text2 {
+    font-weight: normal;
+    font-size: 19px;
+    width: 550px;
+    margin-top: 3%;
+    letter-spacing: .5px;
+    line-height: 30px;
+}
+
+.slide4 {
+    display: grid;
+    max-width: 1450px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 31px;
+    background-color:#D9E89A;
+    color: #1E3932;
+    text-align: center;
+}
+
+.slide5, .slide6 {
+    display: grid;
+    max-width: 1450px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 31px;
+    background-color: #FFBE9E;
+    color: #1E3932;
+    text-align: center;
+}
+
+.terms-container {
+    display: flex;
+    width: 39%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.terms-msg {
+    font-size: 14px;
+    color: #000000;
+    line-height: 25px;
+}
